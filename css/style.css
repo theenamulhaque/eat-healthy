@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER SECTION CODE START */
+
+.header-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+
+.left-textbox h1 {
+    color: #575757;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+span {
+    color: #FBA24F;
+}
+
+.left-textbox p {
+    color: #575757;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.header-btn {
+    padding: 25px 60px;
+    background-image: linear-gradient(262deg, rgba(255,30,30,1) 28%, rgba(251,162,79,1) 100%);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/*  */
+
+.right-imagebox {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.right-imagebox img {
+    width: 90%;
+}
+
+
+
+/* HEADER SECTION CODE END */
+/* ABOUT ME SECTION CODE START */
+
+.aboutme-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/Frame\ 58.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutme-innerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aboutme-left-imagebox img {
+    width: 40%;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*  */
+
+.aboutme-right-textbox {
+    width: 50%;
+
+}
+
+
+/* ABOUT ME SECTION CODE END */
